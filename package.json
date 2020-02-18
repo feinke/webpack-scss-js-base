@@ -1,0 +1,43 @@
+{
+  "name": "scss-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack:watch": "webpack --watch",
+    "webpack": "webpack --mode=none",
+    "webpack:dev": "webpack --config webpack.dev.js --watch",
+    "webpack:prod": "webpack --config webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.4.6",
+    "clean-webpack-plugin": "^2.0.0",
+    "css-loader": "^2.1.1",
+    "cssnano": "^4.1.10",
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.4.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "postcss-cli": "^6.1.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-merge": "^4.2.1"
+  },
+  "browserslist": [
+    "last 1 major version",
+    ">= 1%",
+    "Chrome >= 45",
+    "Firefox >= 38",
+    "Edge >= 12",
+    "Explorer >= 10",
+    "iOS >= 9",
+    "Safari >= 9",
+    "Android >= 4.4",
+    "Opera >= 30"
+  ]
+}
